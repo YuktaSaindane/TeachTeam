@@ -1,0 +1,20 @@
+{
+  "name": "teach-team-admin",
+  "version": "1.0.0",
+  "description": "Teach Team Admin Portal",
+  "scripts": {
+    "dev": "cd admin-frontend && npm run dev",
+    "backend": "cd admin-backend && npm run dev",
+    "dev:both": "concurrently --names \"Admin-Backend,Admin-Frontend\" --prefix-colors \"blue,green\" \"npm run backend\" \"npm run dev\"",
+    "start": "concurrently --names \"Admin-Backend,Admin-Frontend\" --prefix-colors \"blue,green\" \"npm run backend\" \"npm run dev\"",
+    "build": "cd admin-frontend && npm run build",
+    "install-all": "npm install && cd admin-backend && npm install && cd ../admin-frontend && npm install"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
+  },
+  "dependencies": {}
+}

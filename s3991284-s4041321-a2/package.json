@@ -1,0 +1,80 @@
+{
+  "name": "tt-web-system",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.13.8",
+    "@graphql-tools/schema": "^10.0.23",
+    "@testing-library/dom": "^10.4.0",
+    "@types/node": "^22.14.1",
+    "axios": "^1.9.0",
+    "chart.js": "^4.4.8",
+    "google-recaptcha": "^1.1.0",
+    "graphql": "^16.11.0",
+    "lucide-react": "^0.487.0",
+    "next": "^15.2.2",
+    "react": "^19.1.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.1.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-router-dom": "^7.6.0",
+    "recharts": "^2.15.2",
+    "sonner": "^2.0.3",
+    "tailwindcss": "^4.0.14",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "cd Backend && npm test",
+    "test-frontend": "vitest",
+    "backend": "cd Backend && npm run dev",
+    "admin-backend": "cd teach-team-admin/admin-backend && npm run dev",
+    "admin-frontend": "cd teach-team-admin/admin-frontend && npm run dev",
+    "install-all": "npm install && cd Backend && npm install && cd ../teach-team-admin/admin-backend && npm install && cd ../admin-frontend && npm install",
+    "seed-all": "cd Backend && npm run seed-lecturers && npm run seed-tutors && cd ../teach-team-admin/admin-backend && npm run create-admin",
+    "dev:both": "concurrently --names \"Backend,Frontend\" --prefix-colors \"blue,green\" \"npm run backend\" \"npm run dev\"",
+    "build-all": "powershell -ExecutionPolicy Bypass -File build-all.ps1",
+    "start": "npm run install-all && npm run seed-all && concurrently --names \"Main-Backend,Main-Frontend,Admin-Backend,Admin-Frontend,URLs\" --prefix-colors \"blue,green,magenta,cyan,white\" \"npm run backend\" \"npm run dev\" \"npm run admin-backend\" \"npm run admin-frontend\" \"node delayed-urls.js\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/chart.js": "^2.9.41",
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "@types/react-google-recaptcha": "^2.1.9",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/recharts": "^1.8.29",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "babel-jest": "^30.0.0-beta.3",
+    "concurrently": "^9.1.2",
+    "jsdom": "^26.1.0",
+    "postcss": "^8.5.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.2.6",
+    "vitest": "^3.1.1"
+  }
+}

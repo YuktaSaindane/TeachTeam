@@ -1,0 +1,424 @@
+/* This file contains all the custom styles for the admin frontend. */
+/* Styles are organized by component and feature for easy maintenance. */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f4f6;
+}
+
+/* Admin Sign In Styles */
+.signin-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.signin-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.signin-card label {
+  font-size: 14px;
+  color: #374151;
+  margin-top: 12px;
+  display: block;
+}
+
+.signin-card input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #e8f0fe;
+  font-size: 14px;
+}
+
+.signin-card button {
+  width: 100%;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signin-card button:hover {
+  background-color: #2563eb;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.assign-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+}
+
+.assign-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.assign-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1e293b;
+}
+
+.assign-field {
+  margin-bottom: 1.2rem;
+}
+
+.assign-field label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.assign-field select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+}
+
+.assign-button {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.assign-button:hover {
+  background-color: #4338ca;
+}
+.dashboard-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #4f46e5;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(79, 70, 229, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(79, 70, 229, 0.15);
+  border-color: #4f46e5;
+}
+
+.dashboard-card h2 {
+  margin: 0;
+  color: #4f46e5;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.dashboard-card p {
+  margin-top: 0.75rem;
+  color: #6b7280;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* style.css */
+
+.page-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.form-grid {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.input-box {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #005fa3;
+}
+
+.course-card {
+  background: #f9f9f9;
+  border-left: 5px solid #0077cc;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
+
+.course-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+.course-details {
+  margin-top: 4px;
+  color: #555;
+}
+
+.course-buttons {
+  margin-top: 8px;
+}
+
+.course-buttons button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* ========== Unselected Candidates Report ========== */
+.unselected-report-container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.unselected-report-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 28px;
+  text-align: center;
+  color: #1f2937;
+}
+
+.unselected-card {
+  background-color: #f9fafb;
+  border-left: 6px solid #3b82f6;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease;
+}
+
+.unselected-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.unselected-card strong {
+  font-size: 16px;
+  color: #111827;
+}
+
+.unselected-card p {
+  margin: 6px 0 10px;
+  color: #374151;
+  font-size: 14px;
+}
+
+.unselected-card ul {
+  margin-left: 1.2rem;
+  padding-left: 0;
+}
+
+.unselected-card li {
+  font-size: 14px;
+  color: #334155;
+  margin-bottom: 4px;
+}
+
+
+/* ===== Assign Lecturer Styling ===== */
+
+.assign-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  padding: 2rem;
+}
+
+.assign-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.assign-title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1e293b;
+}
+
+.assign-field {
+  margin-bottom: 1.5rem;
+}
+
+.assign-field label {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.assign-field select {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  background-color: #f9fafb;
+  color: #111827;
+  transition: border-color 0.2s ease;
+}
+
+.assign-field select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  background-color: #ffffff;
+}
+
+.assign-button {
+  width: 100%;
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.assign-button:hover {
+  background-color: #2563eb;
+}
+
+
+/* ===== Report Cards Shared Styling ===== */
+
+.report-card {
+  background-color: #f9fafb;
+  border-left: 5px solid #3b82f6;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+}
+
+.report-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
