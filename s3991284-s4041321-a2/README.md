@@ -4,6 +4,8 @@ A comprehensive teaching assistant management system with both candidate applica
 
 **GitHub Repository:** https://github.com/rmit-fsd-2025-s1/s3991284-s4041321-a2.git
 
+## 📽️ Demo
+
 ![Demo](./s3991284-s4041321-a2/Backend/src/TeachTeamVideo.gif)
 
 ## Quick Setup Instructions
