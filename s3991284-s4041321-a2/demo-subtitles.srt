@@ -1,0 +1,227 @@
+1
+00:00:00,000 --> 00:00:05,000
+Welcome to TeachTeam - a comprehensive teaching assistant management system
+
+2
+00:00:05,000 --> 00:00:10,000
+Built with React, TypeScript, and modern full-stack technologies
+
+3
+00:00:10,000 --> 00:00:15,000
+Let's start by launching the application with a single command
+
+4
+00:00:15,000 --> 00:00:20,000
+npm start automatically installs dependencies and seeds the database
+
+5
+00:00:20,000 --> 00:00:25,000
+The system runs two separate applications simultaneously
+
+6
+00:00:25,000 --> 00:00:30,000
+Main application at port 5174 for candidates and lecturers
+
+7
+00:00:30,000 --> 00:00:35,000
+Admin panel at port 5175 for system administration
+
+8
+00:00:35,000 --> 00:00:40,000
+Here's the main application homepage with clean, professional design
+
+9
+00:00:40,000 --> 00:00:45,000
+Users can register as candidates or lecturers with full validation
+
+10
+00:00:45,000 --> 00:00:50,000
+Let me sign in as a lecturer to show the review system
+
+11
+00:00:50,000 --> 00:00:55,000
+Dr. Smith can review applications for assigned courses only
+
+12
+00:00:55,000 --> 00:01:00,000
+The filtering system allows search by name, skills, and availability
+
+13
+00:01:00,000 --> 00:01:05,000
+Real-time search with 400ms debouncing for smooth performance
+
+14
+00:01:05,000 --> 00:01:10,000
+Lecturers can select candidates using checkboxes
+
+15
+00:01:10,000 --> 00:01:15,000
+The ranking system prevents duplicates and validates input
+
+16
+00:01:15,000 --> 00:01:20,000
+Comments can be added with 1000 character limit validation
+
+17
+00:01:20,000 --> 00:01:25,000
+Now let's look at the comprehensive analytics dashboard
+
+18
+00:01:25,000 --> 00:01:30,000
+Application statistics shown with interactive bar charts
+
+19
+00:01:30,000 --> 00:01:35,000
+Skills distribution analysis using pie charts with percentages
+
+20
+00:01:35,000 --> 00:01:40,000
+Availability trends show selection patterns over time
+
+21
+00:01:40,000 --> 00:01:45,000
+These charts use Container-Presenter architecture pattern
+
+22
+00:01:45,000 --> 00:01:50,000
+Clear separation between business logic and visual presentation
+
+23
+00:01:50,000 --> 00:01:55,000
+Now let's see the candidate experience
+
+24
+00:01:55,000 --> 00:02:00,000
+Signing in as Alice Johnson, a pre-created candidate
+
+25
+00:02:00,000 --> 00:02:05,000
+The application form supports multiple course applications
+
+26
+00:02:05,000 --> 00:02:10,000
+Six courses available from Python to Blockchain development
+
+27
+00:02:10,000 --> 00:02:15,000
+For each course, candidates choose Tutorial or Lab roles
+
+28
+00:02:15,000 --> 00:02:20,000
+Skills selection from comprehensive predefined list
+
+29
+00:02:20,000 --> 00:02:25,000
+Programming, AI, Blockchain, Web3, and more technologies
+
+30
+00:02:25,000 --> 00:02:30,000
+Academic credentials require minimum 10 characters
+
+31
+00:02:30,000 --> 00:02:35,000
+Previous experience also validated for quality
+
+32
+00:02:35,000 --> 00:02:40,000
+Form submission includes comprehensive client-side validation
+
+33
+00:02:40,000 --> 00:02:45,000
+Success confirmation shows professional user experience
+
+34
+00:02:45,000 --> 00:02:50,000
+My Applications page lets candidates track submission status
+
+35
+00:02:50,000 --> 00:02:55,000
+Now let's explore the admin panel functionality
+
+36
+00:02:55,000 --> 00:03:00,000
+Admin dashboard provides six core management functions
+
+37
+00:03:00,000 --> 00:03:05,000
+Course management with full CRUD operations
+
+38
+00:03:05,000 --> 00:03:10,000
+Course codes must follow COSCxxxx format
+
+39
+00:03:10,000 --> 00:03:15,000
+Semester format requires YYYY-S structure
+
+40
+00:03:15,000 --> 00:03:20,000
+Duplicate prevention for course names and codes
+
+41
+00:03:20,000 --> 00:03:25,000
+Lecturer assignment controls course review access
+
+42
+00:03:25,000 --> 00:03:30,000
+Only assigned lecturers can review course applications
+
+43
+00:03:30,000 --> 00:03:35,000
+Candidate management includes block and unblock functionality
+
+44
+00:03:35,000 --> 00:03:40,000
+Comprehensive reporting system for decision making
+
+45
+00:03:40,000 --> 00:03:45,000
+Selected candidates report shows rankings and assignments
+
+46
+00:03:45,000 --> 00:03:50,000
+Overloaded candidates report identifies excessive workloads
+
+47
+00:03:50,000 --> 00:03:55,000
+Unselected candidates report tracks recruitment gaps
+
+48
+00:03:55,000 --> 00:04:00,000
+The system includes comprehensive test coverage
+
+49
+00:04:00,000 --> 00:04:05,000
+Backend tests cover controllers, authentication, and validation
+
+50
+00:04:05,000 --> 00:04:10,000
+Frontend tests use React Testing Library
+
+51
+00:04:10,000 --> 00:04:15,000
+Dual API architecture: REST for main app, GraphQL for admin
+
+52
+00:04:15,000 --> 00:04:20,000
+MySQL database with TypeORM for entity relationships
+
+53
+00:04:20,000 --> 00:04:25,000
+Professional development workflow with hot reload
+
+54
+00:04:25,000 --> 00:04:30,000
+TeachTeam demonstrates enterprise-grade development practices
+
+55
+00:04:30,000 --> 00:04:35,000
+Production-ready solution for university tutor recruitment
+
+56
+00:04:35,000 --> 00:04:40,000
+Scalable architecture supporting growing user bases
+
+57
+00:04:40,000 --> 00:04:45,000
+Thank you for exploring TeachTeam's comprehensive features 
