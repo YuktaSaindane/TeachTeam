@@ -6,7 +6,7 @@ A comprehensive teaching assistant management system with both candidate applica
 
 ## 📽️ Demo
 
-![Demo](./s3991284-s4041321-a2/Backend/src/TeachTeamVideo.gif)
+![Demo](./Backend/src/TeachTeamVideo.gif)
 
 ## Quick Setup Instructions
 
